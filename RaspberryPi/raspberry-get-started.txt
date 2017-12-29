@@ -1,0 +1,19 @@
+
+
+
+https://ubuntu-mate.org/raspberry-pi/
+
+15.10.1
+https://www.raspberrypi.org/downloads/raspbian/
+
+
+# raspberry
+In cmdline.txt file open with text editor. I have used notepad++. In text editor at the end of line after “rootwait” U need to add ” ip=192.168.2.112.”
+raspi-config # command, enable SSH from the dialog or via command line
+raspi-config # to consume all the root disk space
+
+
+user/pass pi/raspberry
+rpi-update # for raspbian update
+sudo blkid # for hard drive
+https://www.raspberrypi.org/forums/viewtopic.php?t=75600&p=540721
